@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">COMP9336_lab06_Task2</string>
+    <string name="consumed_battery">Consumed battery:</string>
+    <string name="final_level">Final Level:</string>
+    <string name="initial_level_of_battery">Initial level of battery:</string>
+    <string name="waiting">Normal Usage of mobile phone</string>
+</resources>

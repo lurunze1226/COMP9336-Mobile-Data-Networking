@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">COMP9336_lab07</string>
+    <string name="discover_neighbourhood">Discover Neighbourhood</string>
+    <string name="message">message</string>
+</resources>

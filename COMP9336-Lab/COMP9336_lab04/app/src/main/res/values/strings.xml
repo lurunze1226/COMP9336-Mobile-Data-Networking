@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">COMP9336_lab04</string>
+    <string name="show">Show Available Sensors</string>
+    <string name="acceleration">Acceleration</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="orientation_of_phone">Orientation of phone</string>
+</resources>

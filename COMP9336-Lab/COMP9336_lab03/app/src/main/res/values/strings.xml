@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">COMP9336_lab03</string>
+    <string name="get_gps_status">Get GPS Status</string>
+    <string name="get_location">GET location</string>
+</resources>

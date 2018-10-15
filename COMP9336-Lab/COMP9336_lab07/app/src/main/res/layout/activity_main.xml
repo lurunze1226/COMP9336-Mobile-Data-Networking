@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id = "@+id/status"
+        android:hint="Check BlueTooth Status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/text1"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/status"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/discover"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/discover_neighbourhood"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/text1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:layout_below="@+id/discover"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"/>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:hint="@string/message"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/listview" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/send"
+        android:layout_toRightOf="@id/edit1"
+        android:layout_below="@id/listview"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="send"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id= "@+id/listview"
+        android:layout_below="@id/discover"
+        android:layout_marginTop="10dp"
+        />
+
+
+</RelativeLayout>
